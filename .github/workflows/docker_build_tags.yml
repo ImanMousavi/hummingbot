@@ -2,7 +2,7 @@ name: Build and push Docker images on release
 
 on:
   release:
-    types: [published, edited]
+    types: [master]
 
 jobs:
   build:
@@ -34,4 +34,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: hummingbot/hummingbot:${{ steps.get_tag.outputs.VERSION }}
+          tags: quay.io/crypto_dax/hummingbot:${{ steps.get_tag.outputs.VERSION }}
