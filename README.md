@@ -19,7 +19,6 @@ This code is free and publicly available under the Apache 2.0 open source licens
 
 Help us **democratize high-frequency trading** and make powerful trading algorithms accessible to everyone in the world!
 
-
 ## Quick Links
 
 * [Docs](https://docs.hummingbot.org): Check out the official Hummingbot documentation
